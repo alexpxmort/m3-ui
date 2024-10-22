@@ -1,13 +1,14 @@
 {
   "name": "m3-ui",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "m3-ui biblioteca de UI feita em Angular",
   "author": {
     "name": "Alex Oliveira",
     "email": "lexpdigi@gmail.com"
   },
   "scripts": {
-    "publish": "npm publish --access public"
+    "publish": "npm publish --access public",
+    "build:lib": "ng build m3-lib"
   },
   "license": "MIT",
   "main": "fesm2022/m3-lib.mjs",
@@ -15,7 +16,7 @@
   "es2022": "fesm2022/m3-lib.mjs",
   "typings": "index.d.ts",
   "peerDependencies": {
-    "@angular/core": "^18.0.0",
-    "@angular/common": "^18.0.0"
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
   }
 }
