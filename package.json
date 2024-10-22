@@ -1,13 +1,13 @@
 {
   "name": "m3-ui",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "m3-ui biblioteca de UI feita em Angular",
   "author": {
     "name": "Alex Oliveira",
     "email": "lexpdigi@gmail.com"
   },
   "scripts": {
-    "publish": "npm publish --access public",
+    "publish": "cd dist/m3-lib && npm publish --access public",
     "build:lib": "ng build m3-lib"
   },
   "license": "MIT",

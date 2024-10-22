@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { M3InputComponent } from './lib/m3-input/m3-input.component';
+import { M3InputComponent } from './m3-input/m3-input.component';
 
 @NgModule({
   declarations: [M3InputComponent],
